@@ -3,8 +3,6 @@ def is_even(n: int) -> bool:
     return n % 2 == 0
 
 
-# --- Main program ---
-
 n = int(input("Give me a number: "))
 
 if is_even(n):
@@ -12,12 +10,9 @@ if is_even(n):
 else:
     print("The number is odd.")
 
-# Extra: divisible by 4
 if n % 4 == 0:
     print("It is also a multiple of 4!")
 
-
-# Extra: num/check
 num = int(input("Give me a number to check: "))
 check = int(input("Give me a number to divide by: "))
 
